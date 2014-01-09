@@ -1,0 +1,11 @@
+--- libmatecanvas-1.4.0/configure.in.orig	2012-07-05 19:30:02.000000000 +0200
++++ libmatecanvas-1.4.0/configure.in	2014-01-09 20:08:35.782898566 +0100
+@@ -54,7 +54,7 @@
+ AC_SUBST(LIBMATECANVAS_CURRENT_MINUS_AGE)
+ 
+ AM_INIT_AUTOMAKE
+-AM_CONFIG_HEADER(config.h)
++AC_CONFIG_HEADERS(config.h)
+ 
+ AM_MAINTAINER_MODE
+ 
